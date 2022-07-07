@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Album Printer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, initial-scale=1"
+    />
+  </head>
+  <body>
+    <section class="pageWrapper">
+      <div class="mainContainer">
+        <header>
+          <a href="/" title="logo">
+            <div class="logoWrapper"></div>
+          </a>
+        </header>
+        <div class="container">
+          <form action="#" id="searchForm" class="card-form container">
+            <fieldset>
+              <label for="fileSelector">Select an Image file</label>
+              <input type="file" id="fileSelector" />
+            </fieldset>
+
+            <div class="column left">
+              <div id="imageContainer">
+                <!-- will hold photos -->
+              </div>
+            </div>
+          </form>
+          "
+          <div id="actionButtons" class="text-center">
+            <button id="import" class="text-uppercase">Import</button>
+            <button id="reset" class="text-uppercase">Reset</button>
+          </div>
+
+          <div class="column right">
+            <canvas id="canvas"></canvas>
+          </div>
+
+          <div id="debugContainer">
+            <!-- hold debug messages -->
+          </div>
+          <div
+            id="referrerContainer"            
+          ></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
